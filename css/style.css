@@ -1,0 +1,140 @@
+.roboto-r {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-m {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-b {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+    margin:0;
+}
+.top{
+    padding:0 156px;
+    height:72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top{
+    font-family:"Roboto",sans-serif;
+    font-weight:500;
+    font-style:bold;
+    font-size: 16px;
+    line-height:24px;
+    letter-spacing:0.02em;
+    background-color:#E7E9FC;
+}
+.nav-list{
+    list-style-type: none;
+    margin:0;
+    padding-left:0;
+
+    display: flex;
+    gap:40px;
+}
+.logo{
+    margin:0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+
+}
+.llogo{
+    margin:0;
+    color:#2e2f42;
+}
+.pierwsza1{
+    color:#2E2F42;
+}
+.pierwsza1:hover{
+    color:#404bbf;
+}
+.pierwsza1:focus{
+    color:#404bbf;
+}
+.pierwsza1:active{
+    color:#404bbf;
+    text-decoration: underline;
+}
+
+.adresy{
+    display:flex;
+   gap:40px;
+}
+.adresy{
+    color:#434455;
+    text-decoration: underline;
+}
+.adresy:hover{
+    color: #404bbf;
+font-style:normal;
+text-decoration: underline;
+}
+.adresy:focus{
+    color:#404bbf;
+}
+.first{
+height: 600px;
+margin:0; 
+background-color:#2E2F42;;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.title{
+    font-family: "Roboto",sans-serif;
+    font-weight:700;
+    font-style:bold;
+    font-size:56px;
+    letter-spacing:0.02em;
+    line-height:1.07;
+    color:#ffffff;
+    text-align: center;
+}
+.btn{
+    font-family:"Roboto",sans-serif;
+    font-weight:500;
+    font-size: 16px;
+    color:#ffffff;
+    font-style:normal;
+    line-height:1.5;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    background-color:#4D5AE5;
+  cursor: pointer;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:16px;
+    padding-bottom:16px;
+   border-radius: 4px;
+   border: none;
+}
+.btn:hover{
+    background-color: #404BBF;
+}
+.btn:focus{
+    background-color: #404BBF;
+}
