@@ -138,3 +138,14 @@ justify-content: center;
 .btn:focus{
     background-color: #404BBF;
 }
+.mikro{
+display: flex;
+flex:1;
+justify-content: space-around;
+}
+.akapit{
+    display: flex;
+    flex:1;
+   
+    justify-content: space-around;
+}
