@@ -394,7 +394,7 @@ width: calc((100% - 72px) / 4);
     padding: 100px 0;
 }
 
-.last{
+..foot{
     background-color:#2E2F42}
 
 .secondlogo{
