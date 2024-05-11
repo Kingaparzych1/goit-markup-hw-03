@@ -382,7 +382,7 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 .lastt{
     color:#F4F4FD;
