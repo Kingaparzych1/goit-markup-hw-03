@@ -33,7 +33,10 @@ img{
 
 .cialo{
     margin:0;
-    height:3300px;
+    
+}
+.cialo{
+    
 }
  .kontenerhead .container {
     display: flex;
@@ -67,7 +70,12 @@ img{
     gap:40px;
     display: flex;
     align-items: center
+
    
+}
+.menu{
+    justify-content: center;
+  
 }
 .navlogo{
     display: flex;
@@ -89,8 +97,9 @@ img{
    
 }
 .llogo{
-    margin-right: 76px
     color:#2e2f42;
+    margin-right: 76px
+    
 }
 .link{
     margin-right: 76px
@@ -163,7 +172,9 @@ padding: 188px 0}
     line-height:1.07;
     color:#ffffff;
     text-align: center;
-    max-width: 496px
+    max-width: 496px;
+    justify-content:center ;
+    padding-left:350px;
 }
 .btn{
     display: block;
@@ -177,7 +188,6 @@ padding: 188px 0}
     text-transform: capitalize;
      border-radius: 4px;
     background-color:#4d5ae5
-   
    
 }
 .btn{
@@ -197,6 +207,9 @@ display: block;
 
 
 
+}
+.btn{
+    margin-left:500px
 }
 .btn:hover{
     background-color: #404BBF;
@@ -394,7 +407,7 @@ width: calc((100% - 72px) / 4);
     padding: 100px 0;
 }
 
-..foot{
+.foot{
     background-color:#2E2F42}
 
 .secondlogo{
