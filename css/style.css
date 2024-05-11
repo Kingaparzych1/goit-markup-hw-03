@@ -30,16 +30,12 @@ img{
     margin: 0 auto;
     padding: 0 15px;
 }
-div .container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 .cialo{
     margin:0;
     height:2900px;
 }
-.kontenerhead{
+ .kontenerhead .container {
     display: flex;
 }
 .top{
@@ -248,6 +244,9 @@ width: calc((100% - 72px) / 4);
     background-color: #F4F4FD;
     padding: 120px 0
 }
+.teamkont{
+    padding: 32px 16px;
+}
 .naglowekteam{
     display: flex;
     align-items:center;
@@ -372,7 +371,7 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.www{
+.akapitapp{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,16 +381,19 @@ width: calc((100% - 72px) / 4);
     color: #434455;
     letter-spacing: 0.02em;
     color: #434455;
+    
+}
+.akapitapp{
     margin-bottom: 8px;
 }
-.last{
+.foot{
     height: 312px;
-    padding-top:312px
+    padding-top:312px;
     
     
 }
-.last{
-    padding: 100px 0,
+.foot{
+    padding: 100px 0;
 }
 
 .last{
