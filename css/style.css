@@ -257,6 +257,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 24px;
+width: calc((100% - 72px) / 4);
 }
 .pierwszypunktpodnaglowkiem{
 width: calc((100% - 72px) / 4);
@@ -370,6 +371,7 @@ width: calc((100% - 72px) / 4);
     
 }
 .bankoapp{
+    width: calc((100% - 48px) / 3); 
     display: flex;
     align-items:center ;
     flex-wrap: wrap;
