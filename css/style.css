@@ -128,41 +128,38 @@ gap: 40px}
     gap: 40px
 }
 
-.pierwsza1{
+.pierwszal{
     color:#2E2F42;
     padding: 24px 0;
 }
-.pierwsza1:hover{
+.pierwszal:hover{
     color:#404bbf;
 }
-.pierwsza1:focus{
+.pierwszal:focus{
     color:#404bbf;
 }
-.pierwsza1:active{
+.pierwszal:active{
     color:#404bbf;
     text-decoration: underline;
 }
 
-.adresy{
-    display:flex;
-   gap:40px;
+.loko{
+  display: flex;
+  gap:40px;
 }
-.adress{
-    display: flex;
-    gap: 40px;
-}
-.adresy{
+
+.loko{
     color:#434455;
     text-decoration: underline;
     list-style-type: none;
     padding-left:600px ;
 }
-.adresy:hover{
+.loko:hover{
     color: #404bbf;
 font-style:normal;
 text-decoration: underline;
 }
-.adresy:focus{
+.loko:focus{
     color:#404bbf;
 }
 .first{
@@ -257,7 +254,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 24px;
-width: calc((100% - 72px) / 4);
 }
 .pierwszypunktpodnaglowkiem{
 width: calc((100% - 72px) / 4);
@@ -362,9 +358,8 @@ width: calc((100% - 72px) / 4);
     text-transform: capitalize;
     color:#2e2f42;
 }
-.bankapp{
-    width: calc((100% - 48px) / 3);  
-}
+
+
 .bankowo{
     width: calc((100% - 48px) / 3);  
     list-style-type: none;
@@ -384,10 +379,7 @@ width: calc((100% - 72px) / 4);
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.drugi{
-     border:1px solid #E7E9FC;
-     width: calc((100% - 48px) / 3);
-}
+
 .bank{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -410,21 +402,8 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.akapitapp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    line-height: 1.5;
-    font-size: 16px;
-    color: #434455;
-    letter-spacing: 0.02em;
-    color: #434455;
-    
-}
-.akapitapp{
-    margin-bottom: 8px;
-}
+
 .foot{
     height: 312px;
     padding-top:312px;
