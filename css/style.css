@@ -33,7 +33,7 @@ img{
 
 .cialo{
     margin:0;
-    height:2900px;
+    height:3300px;
 }
  .kontenerhead .container {
     display: flex;
@@ -141,8 +141,7 @@ text-decoration: underline;
     color:#404bbf;
 }
 .first{
-height: 600px;
-margin:0; 
+margin:0;
 
 
 display: flex;
@@ -240,7 +239,6 @@ width: calc((100% - 72px) / 4);
 }
 
 .team{
-    height:732px;
     background-color: #F4F4FD;
     padding: 120px 0
 }
@@ -313,7 +311,7 @@ width: calc((100% - 72px) / 4);
 }
 .portfolioo{
     display:flex;
-    height:1200px;
+    
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px; 
