@@ -103,9 +103,14 @@ img{
 }
 .adresylista{
 gap: 40px}
+.listaadresow{
+    display: flex;
+    gap: 40px
+}
 
 .pierwsza1{
     color:#2E2F42;
+    padding: 24px 0,
 }
 .pierwsza1:hover{
     color:#404bbf;
@@ -161,6 +166,7 @@ padding: 188px 0}
     max-width: 496px
 }
 .btn{
+    display: block;
     font-family:"Roboto",sans-serif;
     font-weight:500;
     font-size: 16px;
@@ -171,10 +177,8 @@ padding: 188px 0}
     text-transform: capitalize;
      border-radius: 4px;
     background-color:#4d5ae5
-   border: none;
-   display: block;
-   min-width: 169px;
-    height: 56px
+   
+   
 }
 .btn{
     cursor: pointer; 
@@ -182,6 +186,17 @@ padding: 188px 0}
     padding-right:32px;
     padding-top:16px;
     padding-bottom:16px;
+    border: none;
+      min-width: 169px;
+     border: none; 
+display: block;
+   min-width: 169px;
+    height: 56px
+
+
+
+
+
 }
 .btn:hover{
     background-color: #404BBF;
@@ -285,6 +300,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    margin-bottom: 8px,
 
 }
 .portfolioo{
@@ -361,8 +377,11 @@ width: calc((100% - 72px) / 4);
 .last{
     height: 312px;
     padding-top:312px
-    padding: 100px 0,
     
+    
+}
+.last{
+    padding: 100px 0,
 }
 
 .last{
