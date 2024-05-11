@@ -30,6 +30,11 @@ img{
     margin: 0 auto;
     padding: 0 15px;
 }
+div .container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .cialo{
     margin:0;
     height:2900px;
@@ -59,7 +64,7 @@ img{
     display: flex;
     gap: 40px,
 }
-.navlist{
+.menu{
     list-style-type: none;
     margin:0;
     padding-left:0;
@@ -214,10 +219,13 @@ display: block;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .listapodnaglowkiem{
@@ -273,7 +281,8 @@ width: calc((100% - 72px) / 4);
    
 }
 .mark{
-    padding: 32px 16px
+    padding: 32px 16px;
+    
 }
 .naglowek{
     display:flex;
@@ -373,6 +382,7 @@ width: calc((100% - 72px) / 4);
     color: #434455;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 .last{
     height: 312px;
