@@ -22,8 +22,9 @@
   font-weight: 700;
   font-style: normal;
 }
-body{
+.cialo{
     margin:0;
+    height:2900px;
 }
 .top{
     padding:0 156px;
@@ -202,4 +203,79 @@ justify-content: center;
     letter-spacing: 0.02em;
     color:#434455;
 
+}
+.portfolioo{
+    display:flex;
+    height:1200px;
+    background-color: #FFFFFF;
+}
+.listaportfolio{
+    width:1500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    list-style-type: none;
+    padding-top:100px ;
+    padding-bottom:50px;
+   
+
+}
+.drugi{
+     border:1px solid #E7E9FC;
+}
+.tytulportfolio{
+    width:140px;
+    height:29px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+    
+   font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+   
+} 
+.ooo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.www{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1.5;
+    font-size: 16px;
+    color: #434455;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.last{
+    height: 312px;
+    padding-top:312px
+    
+}
+
+.last{
+    background-color:#2E2F42}
+
+.secondlogo{
+    color:#f4f4fd;
+}
+.lastt{
+    color:#F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
 }
