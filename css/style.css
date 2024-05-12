@@ -248,8 +248,10 @@ max-width: 496px;
     justify-content: center; 
     align-items: center;
     }
-    .pierwszy { 
-    width: calc((100% - 3 * 24px) / 4)   
+    .pierwszy{
+    width: calc((100% - 3 * 24px) / 4) 
+    }
+    .pierwszy {  
     display: flex;
     align-items: center;
     justify-content: center;
