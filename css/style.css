@@ -146,6 +146,7 @@ gap: 40px}
     text-decoration: underline;
     list-style-type: none;
      margin-left:600px;
+     display: flex;
    
 }
 .contactlist:hover{
