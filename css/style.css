@@ -222,21 +222,18 @@ max-width: 496px;
     .akapit {
      margin-bottom: 24px;
     }
-    .team{
+    .team {
     background-color: #F4F4FD;
     padding: 120px 0;
     display: flex;
     justify-content: center; 
     }
-    .titlee{
-        margin-bottom:72px; 
-    }
-    .titlee{ 
+   .titlee { 
     padding-bottom:150px;
     display: flex;
     align-items:center;
     justify-content: center;
-    margin: 0;
+    margin-bottom:72px; 
     padding-top:100px;
     font-size: 36px;
     line-height: 1.11;
@@ -251,10 +248,10 @@ max-width: 496px;
     justify-content: center; 
     align-items: center;
     }
-   .pierwszy{
+   .pierwszy {
     width: calc((100% - 72px) / 4);
     }
-    .pierwszy{
+    .pierwszy {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -385,15 +382,11 @@ border-top: none;
     margin: 0 auto;
     padding: 0 20px;
   }
-  .logof{
-    margin-bottom:16px;
-  }
 .logof{ 
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif; 
     display: inline-block;
     color:#f4f4fd;
-    margin:0;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
