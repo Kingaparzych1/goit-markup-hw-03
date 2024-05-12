@@ -228,8 +228,10 @@ max-width: 496px;
     display: flex;
     justify-content: center; 
     }
+    .titlee{
+        margin-bottom:72px;
+    }
     .titlee{ 
-    margin-bottom:72px;
     padding-bottom:150px;
     display: flex;
     align-items:center;
@@ -249,9 +251,9 @@ max-width: 496px;
     justify-content: center; 
     align-items: center;
     }
-    .listapracownikow .pierwszy {
-        width: calc((100% - 72px) / 4);
-      }
+   .pierwszy {
+    width: calc((100% - 72px) / 4);
+    }
     .pierwszy{
         display: flex;
         align-items: center;
@@ -333,7 +335,7 @@ row-gap: 48px;
 .aplikacje{
 width: calc((100% - 48px) / 3);
 }
-.aplikacjebankowe{
+.aplikacje{
 padding: 32px 16px; 
 position: relative;
 text-align: center;
