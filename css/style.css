@@ -167,6 +167,10 @@ gap:40px;
 .contactitem:not(:last-child) {
     margin-right: 40px;
 }
+.address{
+display: flex;
+  gap: 40px;
+}
 .first{
     background-color:#2E2F42;
     padding: 188px 0;
@@ -213,7 +217,7 @@ max-width: 496px;
     background-color: #404BBF;
 }
 .secundo{
-    padding: 120px 0,
+    padding: 120px 0;
 }
 .visually-hidden{
         position: absolute;
@@ -234,7 +238,6 @@ max-width: 496px;
     
 }
 .pierwszypunkt{
- 
     width: calc((100% - 72px) / 4);
     list-style-type: none;
 }
@@ -284,6 +287,10 @@ max-width: 496px;
         display: flex;
         justify-content: center; 
     }
+    .kontenermark{
+        padding: 32px 16px;
+
+    }
     .titlee{
         margin-bottom: 72px;
 
@@ -316,8 +323,11 @@ max-width: 496px;
             border-radius: 0px 0px 4px 4px;
             background-color: #ffffff;
             margin-bottom: 16px;
-            width: calc((100% - 3 * 24px) / 4); 
+           
     } 
+    .team .pierwszy {
+        width: calc((100% - 3 * 24px) / 4);
+    }
            
     .naglowek{
     text-align: center;
@@ -346,7 +356,7 @@ max-width: 496px;
         color:#434455;
         margin-bottom: 8px,
     }
-.Portfolioo{
+.portfolioo{
 padding: 120px 0;
 background-color: #FFFFFF;
 }  
