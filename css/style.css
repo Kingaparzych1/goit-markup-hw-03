@@ -229,7 +229,7 @@ max-width: 496px;
     justify-content: center; 
     }
     .titlee{
-        margin-bottom:72px;
+    margin-bottom:72px;
     }
     .titlee{ 
     padding-bottom:150px;
@@ -245,13 +245,13 @@ max-width: 496px;
     text-transform: capitalize;
     color:#2e2f42;
     }
-    .listapracownikow {
+    .listapracownikow{
     display: flex;
     gap: 24px;
     justify-content: center; 
     align-items: center;
     }
-   .pierwszy {
+   .pierwszy{
     width: calc((100% - 72px) / 4);
     }
     .pierwszy{
@@ -277,7 +277,7 @@ max-width: 496px;
         margin-right: 0;
     }
     .teamrazem{
-    padding: 32px 16px;
+    padding: 32px 16px 32px;
     } 
     .naglowek{
     text-align: center;
@@ -375,15 +375,18 @@ border-top: none;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.last {
+.last{
     padding: 100px 0; 
     display: flex;
     background-color:#2E2F42
 }
-.last .container {
+.last .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+  .logof{
+    margin-bottom:16px;
   }
 .logof{ 
     margin-bottom: 16px;
