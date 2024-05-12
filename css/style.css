@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 .roboto-r {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -15,7 +20,7 @@
     font-weight: 700;
     font-style: normal;
   }
- 
+
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -30,24 +35,19 @@ img{
     margin:0;
     
 }
-
  .kontenerhead .container {
     display: flex;
 }
 .top{
-
-
-
-
-
-
-
-
     border-bottom: 1px solid #e7e9fc;
 }
-
 .top__container {
     display: flex;
+}
+.top__container .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .container {
    margin:0;
@@ -55,7 +55,6 @@ img{
     margin: 0 auto;
     padding: 0 15px; 
 }
-
 .top{
     font-family:"Roboto",sans-serif;
     font-weight:500;
@@ -69,26 +68,18 @@ img{
     display: flex;
     align-items: center;
 }
-.menu{
+.logonav .menu {
     list-style-type: none;
-    margin:0;
-    padding-left:0;
-    gap:40px;
+    margin: 0;
+    padding-left: 0;
+    gap: 40px;
     display: flex;
-    align-items: center
-    
-
-   
-}
- 
-.menu{
+    align-items: center;
     justify-content: center;
-  
 }
 .navlogo{
     display: flex;
-    align-items: center
-    
+    align-items: center  
 }
 .logo{ 
     margin:0;
@@ -107,26 +98,39 @@ img{
 }
 .llogo{
     color:#2e2f42;
+    color:#2e2f42;
     
     
-}
-.link{
-    margin-right: 76px
-}
-.studiolista{
-    padding: 24px 0
-}
-.adresylista{
-    display: flex
+    color:#2e2f42;   
     
-}
-.adresylista{
-gap: 40px}
-.listaadresow{
+    
+} 
+.addresslist {
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
+.addresslist{
+    color:#434455;
+    text-decoration: underline;
+    list-style-type: none;
+     margin-left:600px;
+}
+.addresslist:hover{
+    color: #404bbf;
+font-style:normal;
+text-decoration: underline;
+}
+.addresslist:focus{
+    color:#404bbf;
+}
+.contactitem{
+display: flex;
+gap:40px;
 
+}
+.contactitem:not(:last-child) {
+    margin-right: 40px;
+}
 .pierwszal{
     color:#2E2F42;
     padding: 24px 0;
@@ -141,41 +145,12 @@ gap: 40px}
     color:#404bbf;
     text-decoration: underline;
 }
-
-
-
-.contactlist{
-    color:#434455;
-    text-decoration: underline;
-    list-style-type: none;
-     margin-left:600px;
-   
-}
-.contactlist:hover{
-    color: #404bbf;
-font-style:normal;
-text-decoration: underline;
-}
-.contactlist:focus{
-    color:#404bbf;
-}
-.contactitem{
-display: flex;
-gap:40px;
-
-}
-.contactitem:not(:last-child) {
-    margin-right: 40px;
-}
 .first{
     background-color:#2E2F42;
     padding: 188px 0;
 }
 .title{
     display: flex;
-  
-
-
 max-width: 496px;
     font-family: "Roboto",sans-serif;
     font-weight:700;
@@ -185,6 +160,9 @@ max-width: 496px;
     line-height:1.07;
     color:#ffffff;
     margin-left:300px;
+    margin-left:300px;
+    
+    margin-left:300px; 
     
 }
 .btn{
@@ -213,41 +191,37 @@ max-width: 496px;
     background-color: #404BBF;
 }
 .secundo{
-    padding: 120px 0,
+    padding: 120px 0;
 }
 .visually-hidden{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
         
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
       }
 .listapierwsza{
     display: flex;
-    gap: 24px;
-    
+    gap: 24px;   
 }
 .pierwszypunkt{
- 
     width: calc((100% - 72px) / 4);
     list-style-type: none;
 }
 .employeeinfo{ 
     padding:32px 16px;
     position: relative;
- 
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-   
 }
 .employeeinfo img {
      margin-bottom: 16px;
@@ -256,44 +230,30 @@ max-width: 496px;
      margin-bottom: 16px;
      width: 400px;
 }
-
-
     .mikro{
         margin-bottom: 8px; 
-    
-    }
-   
-
-.listapodnaglowkiem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    }
-    .pierwszypunktpodnaglowkiem{
-    width: calc((100% - 72px) / 4);
-    
-    }
-    .mikro{
         margin-bottom: 8px; 
     
+     margin-bottom: 8px; 
+    
+    }
+    .akapit {
+     margin-bottom: 24px;
     }
     .team{
-        background-color: #F4F4FD;
-        padding: 120px 0;
-        display: flex;
-        justify-content: center; 
+    background-color: #F4F4FD;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center; 
     }
     .titlee{
-        margin-bottom: 72px;
-
-        display: flex;
+    padding-bottom:150px;
+    margin-bottom:72px;
+    display: flex;
     align-items:center;
     justify-content: center;
     margin: 0;
-    margin-bottom: 72px;
     padding-top:100px;
-
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -302,23 +262,26 @@ max-width: 496px;
     color:#2e2f42;
     }
     .listapracownikow {
-        display: flex;
-        gap: 24px;
-        justify-content: center; 
-        align-items: center;
+    display: flex;
+    gap: 24px;
+    justify-content: center; 
+    align-items: center;
     }
     .pierwszy{
         display: flex;
         align-items: center;
         justify-content: center;
-            list-style-type: none;
-            border:1px solid white;
-            border-radius: 0px 0px 4px 4px;
-            background-color: #ffffff;
-            margin-bottom: 16px;
-            width: calc((100% - 3 * 24px) / 4); 
-    } 
-           
+        list-style-type: none;
+        border:1px solid white;
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
+        margin-bottom: 16px;
+        margin-right: 24px;
+        width: calc((100% - 3 * 24px) / 4); 
+    }  
+    .pierwszy:last-child {
+        margin-right: 0;
+    }      
     .naglowek{
     text-align: center;
     margin-bottom: 8px;
@@ -326,7 +289,6 @@ max-width: 496px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -335,7 +297,6 @@ max-width: 496px;
     }
     .kkk {
         text-align: center;
-
         display: flex;
         align-items: center;
         justify-content: center;
@@ -346,8 +307,9 @@ max-width: 496px;
         color:#434455;
         margin-bottom: 8px,
     }
-.Portfolioo{
+.portfolioo{
 padding: 120px 0;
+padding-bottom: 120px;
 background-color: #FFFFFF;
 }  
 .lll{
@@ -356,31 +318,29 @@ background-color: #FFFFFF;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
-   
 }
 .listaportfolio{
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 24px; 
-    row-gap: 48px; 
+display: flex; 
+flex-wrap: wrap; 
+column-gap: 24px;
+row-gap: 48px; 
 }
 .aplikacje{
-    width: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 .aplikacjebankowe{
-    padding: 32px 16px; 
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  border: 1px solid #e7e9fc; 
-  border-top: none;
+padding: 32px 16px; 
+position: relative;
+text-align: center;
+overflow: hidden;
+border: 1px solid #e7e9fc; 
+border-top: none;
 }
 .aplikacje{
     margin-bottom: 8px;
@@ -391,7 +351,6 @@ background-color: #FFFFFF;
     height: auto; 
 }
 .www{
-     margin-bottom: 8px;
      text-align: left;
      line-height: 1.5;
      font-size: 16px;
@@ -400,6 +359,7 @@ background-color: #FFFFFF;
      color: #434455;
 }
 .ooo{
+    margin-bottom: 8px;
     display: flex;
     text-align: left;
     font-weight: 500;
@@ -407,20 +367,24 @@ background-color: #FFFFFF;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
-
 }
 .last {
     padding: 100px 0; 
     display: flex;
     background-color:#2E2F42
-
 }
-.logof{
+.last .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+.logof{ 
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif; 
     display: inline-block;
-    margin-bottom: 16px;
     color:#f4f4fd;
     margin:0;
+    text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     font-size: 18px;
@@ -432,7 +396,6 @@ background-color: #FFFFFF;
 .secondsite{
     display: inline-block;
     font-family: "Raleway", sans-serif; 
-
     font-size: 18px;
     font-weight: 700;
     font-size: 18px;
